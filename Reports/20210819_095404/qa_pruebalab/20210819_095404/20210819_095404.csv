@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+qa_pruebalab,Chrome 92.0.4515.159,,,2021-08-19 09:54:07,2021-08-19 09:54:15,"8,593s",FAILED
+,,,,,,,
+Test Cases/qa_lab,Chrome 92.0.4515.159,,,2021-08-19 09:54:07,2021-08-19 09:54:15,"8,284s",FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-19 09:54:07,2021-08-19 09:54:10,"2,690s",PASSED
+"navigateToUrl(""https://admin.autenticame.com/admin/login"")",Chrome 92.0.4515.159,,,2021-08-19 09:54:10,2021-08-19 09:54:11,"1,313s",PASSED
+"setText(findTestObject(""Object Repository/Page_Admin - Autentcame/input_E-mail_email""), ""adminr@autenticame.dev"")",Chrome 92.0.4515.159,,,2021-08-19 09:54:11,2021-08-19 09:54:12,"0,865s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Admin - Autentcame/input_Password_password""), ""S6Bi1LAs26k="")",Chrome 92.0.4515.159,,,2021-08-19 09:54:12,2021-08-19 09:54:13,"0,478s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Admin - Autentcame/input_Password_password""), Keys.chord(ENTER))",Chrome 92.0.4515.159,,,2021-08-19 09:54:13,2021-08-19 09:54:15,"1,821s",PASSED
+"click(findTestObject(""Object Repository/Page_Autentcame - Autentcame/span_Media""))",Chrome 92.0.4515.159,,,2021-08-19 09:54:15,2021-08-19 09:54:15,"0,639s",FAILED
